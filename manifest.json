@@ -1,0 +1,22 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icon-128.png",
+        "16": "icon-16.png"
+    },
+    "manifest_version": 2,
+    "minimum_chrome_version": "23",
+    "name": "Adult Content Blocker",
+    "description": "Get rid of those BAD sites!",
+    "browser_action": {
+    "default_popup" : "popup.html"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "version": "1.0"
+}
